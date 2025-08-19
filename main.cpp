@@ -7,9 +7,12 @@ int main() {
 
     int resultado_suma = sumar(x, y);
     int resultado_resta = restar(x, y);
+    int resultado_division = dividir(x, y);
+
 
     std::cout << "Suma: " << resultado_suma << std::endl;
     std::cout << "Resta: " << resultado_resta << std::endl;
+    std::cout << "Division: " << resultado_division << std::endl;
 
     return 0;
 }
